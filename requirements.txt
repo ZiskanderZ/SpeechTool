@@ -1,0 +1,4 @@
+pydub==0.25.1
+transformers==4.42.3
+torch==2.3.1 --index-url https://download.pytorch.org/whl/cu118
+gradio==4.37.2
