@@ -13,6 +13,8 @@
 
 ## Installation
 
+### To local
+
 1. Clone the repository:
     ```sh
     git clone https://github.com/your-repo/SpeechTool.git
@@ -22,7 +24,16 @@
 2. Install the required dependencies:
     ```sh
     pip install -r requirements.txt
+    sudo apt-get install -y ffmpeg
     ```
+
+### From Docker
+
+```
+docker build -t speechtool .
+docker run -it  speechtool
+```
+
 
 ## Usage
 
