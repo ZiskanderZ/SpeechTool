@@ -3,6 +3,8 @@ import json
 import os
 from pydub import AudioSegment
 from transformers import pipeline
+import warnings
+warnings.simplefilter("ignore")
 
 
 class SpeechTool:

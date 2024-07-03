@@ -1,6 +1,5 @@
 import gradio as gr
 from speech_tool import SpeechTool
-import os
 from pathlib import Path
 
 
