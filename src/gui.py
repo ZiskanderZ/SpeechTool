@@ -118,7 +118,7 @@ class GUI:
         Run the GUI application.
         """
 
-        self.demo.launch()
+        self.demo.launch(share=True)
 
 
 if __name__ == '__main__':

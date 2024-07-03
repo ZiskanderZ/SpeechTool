@@ -7,6 +7,9 @@ WORKDIR /app
 # Install git to clone the repository
 RUN apt-get update && apt-get install -y git
 
+# Install ffmpeg
+RUN apt-get install -y ffmpeg
+
 # Clone the repository
 RUN git clone https://github.com/ZiskanderZ/SpeechTool .
 
